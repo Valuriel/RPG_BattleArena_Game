@@ -22,7 +22,7 @@ let GameManager = {
         let getInterface = document.querySelector(".interface");
         getInterface.innerHTML =
         '<img src="images/avatar-player/' + classType.toLowerCase() + '.png" class="img-avatar"><div><h3>'
-        + classType + '</h3><p>Health: ' + player.health
+        + classType + '</h3><p class="health-player">Health: ' + player.health
         + '</p><p>Mana: ' + player.mana
         + '</p><p>Strength: ' + player.strength
         + '</p><p>Agility: ' + player.agility
