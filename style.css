@@ -50,17 +50,19 @@ img {
   }
   
   .interface img {
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
   }
   
   .img-avatar {
-    width: 160px !important;
-    height: 160px !important;
+    width: 200px !important;
+    height: 200px !important;
   }
   
   .interface div {
     width: 220px;
+    margin-top: 10px;
     padding: 0 10px 0 20px;
     background-color: #211510;
   }
@@ -122,11 +124,19 @@ img {
     width: 100%;
     height: 180px;
     background-color: #1d373d;
-    background-image: url("img/arena-bg.png"); /* Implement own pic! */
     background-position: center;
     background-repeat: no-repeat;
     background-size: 35vh;
     visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .arena p {
+    font-family: 'Acme', sans-serif;
+    font-size: 100px;
+    color: #1b1b1b;
   }
   
   .enemy {
